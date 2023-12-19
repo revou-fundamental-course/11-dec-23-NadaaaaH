@@ -89,4 +89,69 @@ header {
         padding-top: 20px;
 }
 
+form {
+    text-align: left;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-size: 15px;
+}
 
+div.fone {
+    display: flex;
+}
+
+#name-input {
+    border: 1px solid black;
+    height: 20px;
+    padding: 5px;
+    margin-left: 15px;
+    margin-top: 10px;
+    width:30%;
+}
+
+.space {
+    word-spacing: 60px;
+}
+
+
+
+#lbl {
+    margin-top: 18px;
+    margin-left: -4px;
+}
+
+#LP {
+    margin-top: 14px;
+    margin-left: 15px;
+    justify-content: space-between;
+}
+
+#pesan-input {
+    border: 1px solid black;
+    height: 100px;
+    padding: 5px;
+    margin-left: 15px;
+    margin-top: 10px;
+    width:30%;
+}
+
+.btnsubmit {
+    width: 600px;
+    height: 30px;
+    margin-top: 20px;
+    align-items:center ;
+}
+
+.space2 {
+    word-spacing: 10px;
+}
+
+.space3 {
+    word-spacing: 6px;
+}
+
+.space4 {
+    word-spacing: 56px;
+}

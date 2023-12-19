@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Message-Us-Butterfly-school</title>
+    <link rel="stylesheet" href="css/Revou style.css">
+    <link rel="icon" type="image/x-icon" href="img/—Pngtree—blue butterfly_893143.png">
+</head>
+
+<body>
+    <nav>
+        <img src="img/—Pngtree—blue butterfly_893143.png" alt="Logo" class="logo">
+
+        <ul class="nav-item">
+            <button>Home</button>
+            <button>Our Profile</button>
+            <button>Achievment</button>
+            <button>Messege Us</button>
+        </ul>
+    </nav>
+
+    <hr class="garis-A">
+
+    <header>
+        <h1>You can give us a message!</h1>
+    </header>
+
+    <form class="form" name="msgfrom" >
+
+        <div class="fone">
+           <p class="space">Nama :</p>
+           <input type=" text" placeholder="Nama" id="name-input" name="fullname">
+        </div>
+
+        <div class="fone">
+            <p>Tanggal <span class="space2">Lahir :</span></p>
+            <input type="month" placeholder="Nama" id="name-input" name="birthdate">
+        </div>
+
+        <div class="fone">
+            <p>Jenis <span class="space3">Kelamin :</span></p>
+
+            <div id="LP">
+            <input type="radio" id="Laki-laki" name="gender" value="boy">
+            <label for="Laki-laki" id="lbl">Laki-laki</label>
+            
+            <input type="radio" id="Perempuan" name="gender" value="girl">
+            <label for="Perempuan" id="lbl">Perempuan</label>
+            </div>
+        </div>
+
+        <div class="fone">
+            <p class="space4">Pesan :</p>
+            <input id="pesan-input" name="pesan" type=" text" placeholder="Pesan">
+        </div>
+
+        <div>
+            <button type="submit" class="btnsubmit" value="submit">Submit</button>
+        </div>
+
+        <p id="error"></p>
+    </form>
+
+</body>
+</html>
