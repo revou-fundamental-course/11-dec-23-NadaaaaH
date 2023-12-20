@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Message-Us-Butterfly-school</title>
     <link rel="stylesheet" href="css/Revou style.css">
+    <script src="js/script.js"></script>
     <link rel="icon" type="image/x-icon" href="img/—Pngtree—blue butterfly_893143.png">
 </head>
 
@@ -13,10 +14,10 @@
         <img src="img/—Pngtree—blue butterfly_893143.png" alt="Logo" class="logo">
 
         <ul class="nav-item">
-            <button>Home</button>
-            <button>Our Profile</button>
-            <button>Achievment</button>
-            <button>Messege Us</button>
+            <a href="Revoutugas.html"><button>Home</button></a>
+            <a href="ourprofile.html"><button>Our Profile</button></a>
+            <button>Achievement</button>
+            <button id="msgbtn">Messege Us</button>
         </ul>
     </nav>
 
@@ -26,7 +27,9 @@
         <h1>You can give us a message!</h1>
     </header>
 
-    <form class="form" name="msgfrom" >
+<div class="hey">
+
+    <form class="form" name="msgform" onsubmit="return validateForm()">
 
         <div class="fone">
            <p class="space">Nama :</p>
@@ -35,7 +38,7 @@
 
         <div class="fone">
             <p>Tanggal <span class="space2">Lahir :</span></p>
-            <input type="month" placeholder="Nama" id="name-input" name="birthdate">
+            <input type="date" placeholder="Tanggal lahir" id="date-input" name="birthdate">
         </div>
 
         <div class="fone">
@@ -52,7 +55,7 @@
 
         <div class="fone">
             <p class="space4">Pesan :</p>
-            <input id="pesan-input" name="pesan" type=" text" placeholder="Pesan">
+            <textarea id="pesan-input" name="pesan" placeholder="Pesan" style="resize: none;" rows="5"></textarea>
         </div>
 
         <div>
@@ -62,5 +65,12 @@
         <p id="error"></p>
     </form>
 
+    <div class="awww">
+    Pesan terakhir yang terkirim:
+    <div id="sub"></div>
+    </div>
+</div>
+
+    <script src="js/script.js"></script>
 </body>
 </html>
